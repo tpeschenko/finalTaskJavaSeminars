@@ -18,12 +18,12 @@ public class NoteBook {
         this.model_cpu = arg_model_cpu;
         this.model_gpu = arg_model_gpu;
         this.manufacturer = arg_manufacturer;
-        model = arg_model;
-        ram_size = arg_ram_size;
-        hdd_size = arg_hdd_size;
-        price = arg_price;
-        os_name = arg_os_name;
-        color = color_var[r.nextInt(color_var.length)];
+        this.model = arg_model;
+        this.ram_size = arg_ram_size;
+        this.hdd_size = arg_hdd_size;
+        this.price = arg_price;
+        this.os_name = arg_os_name;
+        this.color = color_var[r.nextInt(color_var.length)];
     }
 
     public void info() {
